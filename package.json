@@ -1,19 +1,12 @@
 {
   "name": "quill2-emoji",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/counter.umd.cjs",
-  "module": "./dist/counter.js",
-  "types": "./index.d.ts",
-  "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
-  },
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
