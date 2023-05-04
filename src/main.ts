@@ -1,16 +1,12 @@
 import Quill from 'quill';
-// import * as Emoji from "../lib/main";
+import * as Emoji from "../lib/main";
 // @ts-ignore
-import { EmojiBlot, ToolbarEmoji } from "../dist";
+// import * as Emoji from "../dist";
 import '../dist/style.css'
 import 'quill/dist/quill.snow.css';
 
-Quill.register({
-  'formats/emoji': EmojiBlot,
-  'modules/emoji-toolbar': ToolbarEmoji,
-}, true);  
 
-// Quill.register("modules/emoji", Emoji);
+Quill.register("modules/emoji", Emoji);
 
 new Quill('#editor', {
   modules: { 
