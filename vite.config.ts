@@ -13,6 +13,9 @@ export default defineConfig({
     }
   })],
   build: {
+    rollupOptions: {
+      external: ['quill']
+    },
     lib: {
       entry: './lib/main.ts',
       name: 'index',

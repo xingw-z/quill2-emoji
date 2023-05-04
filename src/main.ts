@@ -1,8 +1,5 @@
 import Quill from 'quill';
 import * as Emoji from "../lib/main";
-// @ts-ignore
-// import * as Emoji from "../dist";
-import '../dist/style.css'
 import 'quill/dist/quill.snow.css';
 
 
